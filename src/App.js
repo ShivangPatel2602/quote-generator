@@ -1,5 +1,10 @@
 import React from "react";
+import Render from "./components/Render/Render";
 
-const App = () => { };
+import classes from "./index.css";
+
+const App = () => {
+  return <Render />;
+};
 
 export default App;
