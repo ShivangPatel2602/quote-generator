@@ -1,8 +1,9 @@
 import React from "react";
 import Card from "../Card/Card";
 import Button from "../Button/Button";
-import RenderQuote from "./RenderQuote";
+import Type from "./Type";
 
+import classes from "../Button/Button.module.css";
 import "./Render.module.css";
 
 const Render = () => {
@@ -10,8 +11,8 @@ const Render = () => {
     <div>
       <h1>Quote Generator</h1>
       <Card>
-        <Button />
-        <RenderQuote />
+        <Button text="Generate Quote" className={classes.head} />
+        <Type />
       </Card>
     </div>
   );

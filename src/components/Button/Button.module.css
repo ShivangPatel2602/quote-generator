@@ -1,4 +1,4 @@
-button {
+.head {
     color: white;
     background-color: crimson;
     border-radius: 20px;
@@ -6,4 +6,33 @@ button {
     width: 200px;
     font-size: large;
     text-align: center;
+}
+
+.life, .time, .hard-work, .attitude, .failure {
+    border-radius: 20px;
+    font-size: 25px;
+    height: 70px;
+    width: 150px;
+    color: white;
+    margin: 20px;
+}
+
+.life {
+    background-color: #D54C4C;
+}
+
+.time {
+    background-color: #001E6C;
+}
+
+.hard-work {
+    background-color: #FF7600;
+}
+
+.attitude {
+    background-color: #01937C;
+}
+
+.failure {
+    background-color: #185ADB;
 }
